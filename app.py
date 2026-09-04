@@ -141,7 +141,7 @@ if plot:
             "State": True,
             "Population": ":,.0f",
             "Sex Ratio": ":.1f",
-            "Literacy Rate": ":.1f",
+            "Literaty Rate": ":.1f",
             primary: ":.1f",
             secondary: ":.1f",
             "Latitude": False,
