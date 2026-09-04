@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("india_cesus_2011.csv")
+    df = pd.read_csv("india_census_2011.csv")
 
     # Create useful calculated metrics
     df["Internet Penetration (%)"] = (
@@ -103,7 +103,7 @@ col1.metric("Districts",selected_df["District"].nunique())
 col2.metric("Avg. Sex Ratio",f"{selected_df['Sex Ratio'].mean():.1f}")
 
 col3.metric("Avg. Literacy Rate",
-                f"{selected_df['Literaty Rate'].mean():.1f}%")
+                f"{selected_df['Literacy Rate'].mean():.1f}%")
 
 col4.metric("Population",f"{selected_df['Population'].sum():,.0f}")
 
@@ -141,7 +141,7 @@ if plot:
             "State": True,
             "Population": ":,.0f",
             "Sex Ratio": ":.1f",
-            "Literaty Rate": ":.1f",
+            "Literacy Rate": ":.1f",
             primary: ":.1f",
             secondary: ":.1f",
             "Latitude": False,

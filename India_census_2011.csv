@@ -1,4 +1,4 @@
-State,District,Latitude,Longitude,District code,Households_with_Internet,Rural_Households,Urban_Households,Population,Sex Ratio,Literaty Rate
+State,District,Latitude,Longitude,District code,Households_with_Internet,Rural_Households,Urban_Households,Population,Sex Ratio,Literacy Rate
 Andhra Pradesh,Adilabad,19.284513950073435,78.81321233480176,532,5512,597466,220248,2741239,100.0,54.11
 Andhra Pradesh,Anantapur,14.312065561843148,77.4601584478577,553,8606,902997,341431,4081148,98.0,56.63
 Andhra Pradesh,Chittoor,13.33109263067696,78.92763898886037,554,13763,907970,395900,4174064,100.0,63.92
