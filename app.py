@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("india_census_2011.csv")
+    df = pd.read_csv("India_census_2011.csv")
 
     # Create useful calculated metrics
     df["Internet Penetration (%)"] = (
